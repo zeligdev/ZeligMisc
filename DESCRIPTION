@@ -8,8 +8,8 @@ Version: 0.1
 Packaged: Fri Jan 13 16:12:42 2012
 URL: http://gking.harvard.edu/zelig
 Date: 2012-01-13
-Depends: Zelig
+Depends: Zelig (>= 4.0-6), survival
 Collate: 'describe.arima.R' 'describe.coxph.R' 'describe.ei.RxC.R'
-    'param.arima.R' 'param.coxph.R' 'param.ei.RxC.R' 'qi.arima.R'
-    'qi.coxph.R' 'qi.ei.RxC.R' 'zelig2arima.R' 'zelig2coxph.R'
+    'param.arima.R' 'param.cox.ph.R' 'param.ei.RxC.R' 'qi.arima.R'
+    'qi.cox.ph.R' 'qi.ei.RxC.R' 'zelig2arima.R' 'zelig2cox.ph.R'
     'zelig2ei.RxC.R' 'ZeligMisc-package.R'

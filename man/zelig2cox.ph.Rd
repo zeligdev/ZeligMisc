@@ -1,7 +1,7 @@
-\name{zelig2coxph}
-\alias{zelig2coxph}
+\name{zelig2cox.ph}
+\alias{zelig2cox.ph}
 \title{Interface between the Zelig Model coxph and...}
-\usage{zelig2coxph(formula, ..., robust=FALSE, cluster, data)}
+\usage{zelig2cox.ph(formula, ..., robust=FALSE, cluster, data)}
 \description{Interface between the Zelig Model coxph and 
 the Pre-existing Model-fitting Method}
 \value{a list specifying '.function'}
