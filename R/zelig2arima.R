@@ -6,8 +6,12 @@
 #' @return a list specifying '.function'
 #' @export
 zelig2arima <- function (formula, ..., data) {
+
+
+
   list(
-       .function = "",
+       # "arima.wrap" 
+       .function = "arima.wrap",
        formula = formula,
        data = data
        )
